@@ -20,6 +20,16 @@ def show_scope():
     print(x)
 show_scope()
 print(x)
+print("\n")
+
+############# Modules #############
+print("Modules Example:")
+import math
+import random
+print(math.sqrt(16))
+print(random.randint(-10, -1))
+
+
 
 
 
