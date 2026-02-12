@@ -2,10 +2,17 @@ import pandas as pd
 
 grades = pd.Series([85, None, 92, 45, None, 78, 55])
 
+print("Original Grades:")
+print(grades)
+
+print("\nMissing Values:")
+print(grades.isnull())
+
 filled = grades.fillna(0)
 
-filtered = filled[filled > 60]
+print("\nAfter Filling Missing Values:")
+print(filled)
 
-print("Original:\n", grades)
-print("\nFilled:\n", filled)
-print("\nGreater than 60:\n", filtered)
+print("\nScores Greater Than 60:")
+print(filled[filled > 60])
+

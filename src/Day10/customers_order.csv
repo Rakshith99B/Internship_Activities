@@ -1,0 +1,7 @@
+Order_ID,Customer_Name,Amount,Quantity
+101,Alice,2500,5
+102,Bob,1800,4
+101,Alice,2350,3
+104,David,2200,4
+105,Eva,3000,6
+101,Alice,2500,5
