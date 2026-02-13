@@ -32,3 +32,5 @@ plt.subplot(1, 2, 2)
 plt.bar(['A','B','C'], [3,7,5])
 plt.title("Bar Chart")
 plt.show()
+
+
