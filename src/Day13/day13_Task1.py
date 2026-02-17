@@ -21,7 +21,7 @@ df["Price"].plot(kind="kde")
 plt.title("Histogram with KDE - Price")
 plt.xlabel("Price")
 plt.ylabel("Density")
-
+\
 plt.subplot(1,2,2)
 df["City"].value_counts().plot(kind="bar")
 plt.title("Count Plot - City")
