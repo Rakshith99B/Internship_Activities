@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 
 df = pd.DataFrame({
     "Age": [22, 25, 30, 35, 40, 28, 32, 45, 50],
-    "Salary": [20000, 25000, 40000, 60000, 80000, 35000, 45000, 90000, 100000]
+    "Salary": [20000, 25000, 40000, 60000, 80000, 32000, 43000, 90000, 100000]
 })
 
 scaler_std = StandardScaler()
