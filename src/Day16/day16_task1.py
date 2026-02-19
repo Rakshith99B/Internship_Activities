@@ -19,7 +19,10 @@ for name, data in datasets.items():
     mean = df["Value"].mean()
     median = df["Value"].median()
 
-    plt.figure()
+    plt.figure(figsize=(10,4))
+
+    plt.subplot(1,2,1)
+    
     sns.histplot(df["Value"], kde=True)
     plt.title(f"{name} | Mean={mean:.2f}, Median={median:.2f}")
     plt.show()
