@@ -1,1 +1,1 @@
-print("Main branch version")
+print("Main version")
